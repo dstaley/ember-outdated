@@ -1,0 +1,13 @@
+{
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "quotes": [0],
+    "one-var": [2, {
+      "uninitialized": "always",
+      "initialized": "never"
+    }],
+    "no-unused-expressions": [0]
+  }
+}
