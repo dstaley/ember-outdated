@@ -4,7 +4,7 @@ This command-line tool helps identify which dependencies in an [Ember CLI](https
 
 ## Install
 
-`npm install -g ember-outdated@0.1.0-alpha.1`
+`npm install -g ember-outdated@0.1.0-alpha.2`
 
 ## Usage
 

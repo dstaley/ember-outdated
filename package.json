@@ -1,6 +1,6 @@
 {
   "name": "ember-outdated",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "A CLI tool that shows you what dependencies in an ember-cli project are outdated.",
   "keywords": [
     "ember.js",
@@ -15,6 +15,7 @@
     "bower": "^1.4.1",
     "cli-table": "^0.3.1",
     "commander": "^2.8.1",
+    "lodash": "^3.10.0",
     "npm": "^2.13.1",
     "pleasant-progress": "^1.1.0",
     "request": "^2.60.0",
