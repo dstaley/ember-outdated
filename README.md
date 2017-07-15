@@ -4,16 +4,41 @@ This command-line tool helps identify which dependencies in an [Ember CLI](https
 
 ## Install
 
-`npm install -g ember-outdated@0.1.0-alpha.2`
+`ember-outdated` can either be installed locally or in each Ember project you'd like to use it in.
+
+### Global Install
+
+`npm install -g ember-outdated`
+
+### Per-Project Install
+
+`npm install ember-outdated --save-dev`
 
 ## Usage
 
-Simply run `ember-outdated` from within an Ember CLI application.
+If you installed globally, run `ember-outdated` from within an Ember CLI application that has already had its dependencies installed.
 
 ```
 $ cd my-awesome-ember-cli-app
 $ ember-outdated
 ```
+
+If you installed directly in your project:
+
+```
+$ cd my-awesome-ember-cli-app
+$ ./node-modules/bin/ember-outdated
+```
+
+## npx
+
+`ember-outdated` also works beautifully with [`npx`](https://github.com/zkat/npx).
+
+```
+$ cd my-awesome-ember-cli-app
+$ npx ember-outdated
+```
+
 
 ## Example
 
